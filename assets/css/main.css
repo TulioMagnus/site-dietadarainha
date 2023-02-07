@@ -12,6 +12,11 @@
   font-family: 'GothamBold';
   src: url("../fonts/GothamBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url("../fonts/GothamBook.ttf") format("truetype");
+}
 html {
   overflow-x: hidden;
 }
@@ -719,6 +724,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #section-8 .text {
+  font-family: 'GothamBook';
   width: 70%;
   font-weight: 400;
   font-size: 18px;
@@ -756,6 +762,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #section-8 .price {
+  font-family: GothamBold;
   width: 30%;
   font-weight: 300;
   font-size: 30px;
