@@ -7,9 +7,15 @@
   font-family: 'GothamMedium';
   src: url("../fonts/GothamMedium.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url("../fonts/GothamBold.ttf") format("truetype");
+}
 html {
   overflow-x: hidden;
 }
+
 
 body {
   background: #fff;
@@ -221,30 +227,6 @@ button:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.social-icon li a:hover {
-  color: #fff;
-}
-
-.social-icon li .facebook:hover {
-  background: #3b5999;
-}
-
-.social-icon li .twitter:hover {
-  background: #4A9CEC;
-}
-
-.social-icon li .instagram:hover {
-  background: #D6274D;
-}
-
-.social-icon li .linkedin:hover {
-  background: #1260A2;
-}
-
-.social-icon li .google:hover {
-  background: #CE332A;
-}
-
 /* ScrollToTop */
 a.back-to-top {
   display: none;
@@ -408,10 +390,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .flex-container {
   display: flex;
-  height: 700px;
+  height: 599px;
   flex-flow: column wrap;
   align-content: space-between;
-  gap: 30px;
 }
 
 .flex-container > div {
@@ -427,8 +408,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .flex-container > div > img {
-  width: 70px;
-  padding: 10px;
+  width: 65px;
+  padding: 15px;
   object-fit: contain;
   vertical-align: middle;
 }
@@ -446,6 +427,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #FFFFFF;
   place-self:center;
   padding: 5px;
+}
+
+#section-4 > div p {
+  text-align: left;
 }
 
 #section-4 .section-4-header {
@@ -783,6 +768,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #section-8 p {
   color: #6E0697;
+  padding-top: 10px;
 }
 
 #section-8 .row {
@@ -806,7 +792,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #section-8 .center-text {
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 /* End of Section 8 */
@@ -1060,14 +1046,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-.navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
-.navbar-expand-lg .navbar-nav li a:focus {
-  color: #00b4d9;
-  outline: none;
-}
-
 .navbar {
   padding: 0;
 }
@@ -1227,7 +1205,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   #section-1 {
   }
-  
+
   .image-banner {
     background: url(../img/BANNER-1_MOBILE.jpg) no-repeat;
     background-position: center;
@@ -1382,6 +1360,16 @@ a.back-to-top:hover, a.back-to-top:focus {
     width: 90%;
   }
 
+  a {
+    font-family: "GothamBold", sans-serif;
+    color: inherit;
+  }
+
+  .btn-common {
+    font-size: 1rem;
+  }
+
+
 }
 
 /* 7 days Area Start */
@@ -1395,7 +1383,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #warranty .box {
   display: flex;
-  align-items: flex-start;
   height: 200px;
   flex-wrap: wrap;
   justify-content: center;
@@ -1461,4 +1448,17 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .card-header:first-child {
   border-radius: 10px;
+}
+
+a {
+  font-family: "GothamBold", sans-serif;
+  font-size: 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  color: inherit;
+}
+
+.accordion .card-header .btn-block{
+  white-space:normal;
 }
