@@ -19,7 +19,7 @@ html {
 
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   -webkit-box-sizing: border-box;
@@ -726,8 +726,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #section-8 .text-big {
-  font-family: 'Gotham';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -1317,6 +1315,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   #section-8 .price-box {
     flex-direction: row;
     width: 90%;
+  }
+
+  #section-8 .center-text {
+    width: 80%;
+    margin: auto;
   }
   #section-8 .text {
     font-size: 14px;
