@@ -1244,63 +1244,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: none;
 }
 
-#section-8 .nm .container {
-  width: unset;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-}
-
-#section-8 .nm p {
-  width: 80%;
-}
-
-#warranty {
-  height: 350px;
-}
-
-#section-8 .nm .plan {
-  width: 100%;
-}
-
-#section-8 .nm .red {
-  background: linear-gradient(103.44deg, #6E0697 -5.02%, #D54553 99.59%);
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 50px;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-  border-radius: 7px 7px 0px 0px;
-}
-
-#section-8 .nm h3 {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-}
-
-#section-8 .nm .container p {
-  color: #FFFFFF;
-  width: 80%;
-}
-
-#section-8 .nm .purple {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    linear-gradient(0deg, #6E0697, #6E0697);
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 50px;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-  border-radius: 0px 0px 7px 7px;
-  height: 250px;
-}
 
 .mobile-menu {
   display: none;
@@ -1461,6 +1404,64 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   #section-8 .text {
     font-size: 14px;
+  }
+
+  #section-8 .nm .container {
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  #section-8 .nm p {
+    width: 80%;
+  }
+
+  #warranty {
+    height: 350px;
+  }
+
+  #section-8 .nm .plan {
+    width: 100%;
+  }
+
+  #section-8 .nm .red {
+    background: linear-gradient(103.44deg, #6E0697 -5.02%, #D54553 99.59%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 50px;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 7px 7px 0px 0px;
+  }
+
+  #section-8 .nm h3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+  }
+
+  #section-8 .nm .container p {
+    color: #FFFFFF;
+    width: 80%;
+  }
+
+  #section-8 .nm .purple {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      linear-gradient(0deg, #6E0697, #6E0697);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 50px;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 0px 0px 7px 7px;
+    height: 250px;
   }
 
   #section-8 .price {
