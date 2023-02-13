@@ -800,6 +800,79 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: 50%;
   margin: auto;
 }
+
+#section-8 .nm p {
+  color: #FFFFFF;
+}
+
+#section-8 .nm .container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+#section-8 .nm .plan {
+  width: 30%;
+}
+
+#section-8 .nm .red {
+  background: linear-gradient(103.44deg, #6E0697 -5.02%, #D54553 99.59%);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+#section-8 .nm p {
+  color: #6E0697;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  font-family: GothamMedium;
+}
+
+#section-8 .nm .red p {
+  padding-top: unset;
+}
+
+#section-8 .nm .purple p {
+  padding-top: 15px;
+}
+
+#section-8 .nm h3 {
+  padding-bottom: 40px;
+}
+
+#section-8 .nm .container p {
+  color: #FFFFFF;
+  width: 80%;
+}
+
+#section-8 .nm p {
+  font-size: 16px;
+}
+
+#section-8 .nm .purple {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(0deg, #6E0697, #6E0697);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 0px 0px 7px 7px;
+  height: 300px;
+}
+
 /* End of Section 8 */
 
 #about .img-thumb img {
@@ -1169,6 +1242,64 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-toggler {
   display: none;
+}
+
+#section-8 .nm .container {
+  width: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+#section-8 .nm p {
+  width: 80%;
+}
+
+#warranty {
+  height: 350px;
+}
+
+#section-8 .nm .plan {
+  width: 100%;
+}
+
+#section-8 .nm .red {
+  background: linear-gradient(103.44deg, #6E0697 -5.02%, #D54553 99.59%);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 7px 7px 0px 0px;
+}
+
+#section-8 .nm h3 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+#section-8 .nm .container p {
+  color: #FFFFFF;
+  width: 80%;
+}
+
+#section-8 .nm .purple {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(0deg, #6E0697, #6E0697);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 0px 0px 7px 7px;
+  height: 250px;
 }
 
 .mobile-menu {
